@@ -1,0 +1,19 @@
+{
+  "name": "divegforero-website",
+  "version": "1.0.0",
+  "description": "Sitio web de Diveg Forero - El Amor en Tiempos Modernos",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p $PORT -a 0.0.0.0",
+    "dev": "http-server -p 8080"
+  },
+  "keywords": ["diveg-forero", "website", "ebook"],
+  "author": "Diveg Forero",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
